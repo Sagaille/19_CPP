@@ -1,0 +1,12 @@
+uintptr_t
+https://stackoverflow.com/questions/1845482/what-is-uintptr-t-data-type
+
+raw pointers and data in structure
+https://www.codeproject.com/Articles/25896/Reading-Unmanaged-Data-Into-Structures
+https://docs.microsoft.com/en-us/cpp/cpp/raw-pointers?view=msvc-160
+
+example in exercise one is used for hiding implementation
+https://cse.hkust.edu.hk/~dekai/library/ECKEL_Bruce/TICPP-2nd-ed-Vol-one/TICPP-2nd-ed-Vol-one-html/Chapter05.html
+
+find the type/sub-type
+https://stackoverflow.com/questions/351845/finding-the-type-of-an-object-in-c/4325139
