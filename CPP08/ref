@@ -1,0 +1,19 @@
+Stack is by definition LIFO (last in first out) so they didn't implement iterators.
+But the stack container is also a template based on other types such as deque (who has iterators).
+So we just use the iterator of another container type and use it with our subclass.
+
+https://en.cppreference.com/w/cpp/container/stack
+
+https://stackoverflow.com/questions/38136137/does-stack-have-iterators-in-c
+https://stackoverflow.com/questions/525365/does-stdstack-expose-iterators
+
+typedef typename
+typedef is defining a new type for use in your code, like a shorthand.
+
+typedef typename _MyBase::value_type value_type;
+value_type v;
+//use v
+
+typename here is letting the compiler know that value_type is a type and not a static member of _MyBase.
+
+the :: is the scope of the type. It is kind of like "is in" so value_type "is in" _MyBase. or can also be thought of as contains.
