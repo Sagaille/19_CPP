@@ -1,0 +1,3 @@
+
+Fixed point (int to float)
+https://inst.eecs.berkeley.edu//~cs61c/sp06/handout/fixedpt.html
